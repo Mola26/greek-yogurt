@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(198, 191, 191);
+}
+.container {
+  font-family: "Cerebri Sans";
+  box-shadow: 0px 0px 10px rbga(0, 0, 0, 0.2);
+  margin: 50px auto;
+  padding: 40px;
+  max-width: 550px;
+  border-radius: 5px;
+  color: #272142;
+  background: #fff;
+}
+h1 {
+  text-align: center;
+  color: #ae16a4;
+}
+h2 {
+  text-align: center;
+}
+.yogurt-picture {
+  border-radius: 12px;
+  max-width: 100%;
+  margin: 15px 0;
+}
+.wikipedia {
+  list-style: none;
+  font-size: 20px;
+  color: #ae16a4;
+}
+button {
+  background: #ae16a4;
+  color: white;
+  display: block;
+  margin: 30px auto;
+  width: 90%;
+  border-radius: 50px;
+  border: none;
+  font-size: 24px;
+  font-family: "Cerebri Sans";
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+button:hover {
+  background-color: #2f0b2e;
+}
+small {
+  text-align: center;
+  font-size: 16px;
+  display: block;
+}
+p {
+  font-size: 18px;
+}
